@@ -56,5 +56,8 @@
   },
   "exports": {
     "./lib/tokenize": "./lib/tokenize.js"
+  },
+  "resolutions": {
+    "postcss": "^8.1.10"
   }
 }
