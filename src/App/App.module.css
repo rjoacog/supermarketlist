@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+input {
+  z-index: 1000;
+}
+
+.btnAddItem {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(128, 128, 246, 0.856);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 100%;
+}
+
+li{
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 10px 22px -15px rgba(0,0,0,0.75);
+  border-radius: 9px 9px 9px 9px;
+  margin-bottom: 10px;
+}
+
+.btnItem{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-style: oblique;
+}
