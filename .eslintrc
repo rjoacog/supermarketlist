@@ -29,7 +29,8 @@
       {
         "args": "after-used",
         "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_$"
+        "argsIgnorePattern": "^_$",
+        "hasSuggestions": true
       }
     ],
     "prettier/prettier": [
@@ -43,8 +44,7 @@
         "semi": true,
         "singleQuote": false,
         "bracketSpacing": false,
-        "arrowParens": "always",
-        "hasSuggestions": true
+        "arrowParens": "always"
       }
     ],
     "import/order": ["warn", { "newlines-between": "always" }],
