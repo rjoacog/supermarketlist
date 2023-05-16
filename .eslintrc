@@ -35,6 +35,8 @@
     "prettier/prettier": [
       "error",
       {
+        "ignoreRestArgs": true,
+      "fixToUnknown": true,
         "printWidth": 100,
         "trailingComma": "all",
         "tabWidth": 2,
@@ -42,6 +44,15 @@
         "singleQuote": false,
         "bracketSpacing": false,
         "arrowParens": "always"
+      },
+      "meta", {
+        "docs": {
+          "description": "Disallow usage of `any` as a type declaration.",
+          "category": "Best Practices",
+          "recommended": false,
+          "suggest": "Use a more specific type declaration."
+        },
+        "hasSuggestions": true
       }
     ],
     "import/order": ["warn", {"newlines-between": "always"}],
