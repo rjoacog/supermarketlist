@@ -43,7 +43,16 @@
         "semi": true,
         "singleQuote": false,
         "bracketSpacing": false,
-        "arrowParens": "always"
+        "arrowParens": "always",
+        "meta": {
+          "docs": {
+            "description": "Disallow usage of `any` as a type declaration.",
+            "category": "Best Practices",
+            "recommended": false,
+            "suggest": "Use a more specific type declaration."
+          },
+          "hasSuggestions": true
+        }
       }
     ],
     "import/order": ["warn", { "newlines-between": "always" }],
