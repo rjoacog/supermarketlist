@@ -10,10 +10,12 @@ const Input: React.FC<Props> = ({setInput, items, setItems}) => {
 
   const [newItems, setNewItems] = React.useState("");
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleNewItems = (event: any) => {
     setNewItems(event.target.value);
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const addNewItems = (event: any) => {
     event.preventDefault();
     if (newItems !== "") {

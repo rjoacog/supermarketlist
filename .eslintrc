@@ -29,8 +29,7 @@
       {
         "args": "after-used",
         "ignoreRestSiblings": false,
-        "argsIgnorePattern": "^_$",
-        "hasSuggestions": true
+        "argsIgnorePattern": "^_$"
       }
     ],
     "prettier/prettier": [
