@@ -33,20 +33,6 @@
       }
     ]
   },
-  "prettier/prettier": [
-    "error",
-    {
-      "ignoreRestArgs": true,
-      "fixToUnknown": true,
-      "printWidth": 100,
-      "trailingComma": "all",
-      "tabWidth": 2,
-      "semi": true,
-      "singleQuote": false,
-      "bracketSpacing": false,
-      "arrowParens": "always"
-    }
-  ],
   "import/order": ["warn", { "newlines-between": "always" }],
   "react/prop-types": "off",
   "react/self-closing-comp": "warn",
