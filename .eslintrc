@@ -45,12 +45,12 @@
         "bracketSpacing": false,
         "arrowParens": "always",
         "meta": {
-          "docs": {
-            "description": "Disallow usage of `any` as a type declaration.",
-            "category": "Best Practices",
-            "recommended": false,
-            "suggest": "Use a more specific type declaration."
-          },
+          // "docs": {
+          //   "description": "Disallow usage of `any` as a type declaration.",
+          //   "category": "Best Practices",
+          //   "recommended": false,
+          //   "suggest": "Use a more specific type declaration."
+          // },
           "hasSuggestions": true
         }
       }
