@@ -32,6 +32,11 @@
         "argsIgnorePattern": "^_$"
       }
     ],
+    "@typescript-eslint/no-explicit-any": {
+      "meta": {
+        "hasSuggestions": true
+      }
+    },
     "prettier/prettier": [
       "error",
       {
@@ -43,16 +48,7 @@
         "semi": true,
         "singleQuote": false,
         "bracketSpacing": false,
-        "arrowParens": "always",
-        "meta": {
-          // "docs": {
-          //   "description": "Disallow usage of `any` as a type declaration.",
-          //   "category": "Best Practices",
-          //   "recommended": false,
-          //   "suggest": "Use a more specific type declaration."
-          // },
-          "hasSuggestions": true
-        }
+        "arrowParens": "always"
       }
     ],
     "import/order": ["warn", { "newlines-between": "always" }],
